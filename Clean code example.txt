@@ -1,38 +1,37 @@
-Clean Code Exercise With Answers
---------------------------------
-Review the code blocks below. Why are these a bad code? Try to write a clean code –
 
 1.  
 <p id="intro">New items on the menu today include <strong>caramel apple cider and breakfast crepes</p>.</strong>
 <p id="intro">The caramel apple cider is delicious.
 
-Hint- This is not Compliant Markup. Arrange the tags properly
+Hint- This is not Compliant Markup. Arrange the tags properly.
 
-Answer- 
+Clean Code-
 <p class="intro">New items on the menu today include <strong>caramel apple cider and breakfast crepes</strong>.</p>
 <p class="intro">The caramel apple cider is delicious.</p>
 
 
-2.  <span class="heading"><strong>Welcome Back</span></strong>
+2.  
+<span class="heading"><strong>Welcome Back</span></strong>
 <br><br>
 It has been a while. What have you been up to lately?
 <br><br>
 
-Hint- There are available Semantic Elements. So you need to use that
+Hint- There are available Semantic Elements. So you need to use that.
 
-Answer- 
+Clean Code-
 <h1>Welcome Back</h1>
 <p>It has been a while. What have you been up to lately?</p>
 
 
-3.  <html>
+3.  
+<html>
 <h1>Hello World</h1>
 <p>This is a web page.</p>
 </html>
 
 Hint- Document structure is not appropriate.
 
-Answer-
+Clean Code-
 <!DOCTYPE html>
 <html>
 <head>   
@@ -55,14 +54,15 @@ Answer-
     </ul>
 </ASIDE>
 
-Hint- Unorganized Syntax.
+Hint-
+Unorganized Syntax.
 • Use lowercase letters within element names, attributes, and values
 • Indent nested elements
 • Strictly use double quotes, not single or completely omitted quotes
 • Remove the forward slash at the end of self-closing elements
 • Omit the values on Boolean attributes
 
-Answer-
+Clean Code-
 <aside> 
     <h3>Chicago</h3> 
     <h5 hidden>City in Illinois</h5> 
@@ -76,9 +76,9 @@ Answer-
 
 5. <p class="red">Error! Please try again.</p>
 
-Hint – class value ( same goes for ID ) is not practical. Few days letter ‘red’ can be something else e.g. light-red based on design
+Hint- Class value ( same goes for ID ) is not practical. Few days letter ‘red’ can be something else e.g. light-red based on design.
 
-Answer-
+Clean Code-
 <p class="alert">Error! Please try again.</p>
 
 
@@ -86,7 +86,7 @@ Answer-
 
 Hint– Image should have Alternative text
 
-Answer-
+Clean Code-
 <img src="puppy.jpg" alt="A beautiful, two-year-old hound mix puppy">
 
 
@@ -94,11 +94,12 @@ Answer-
 
 Hint- Content and Style are mixed
 
-Answer-
+Clean Code-
 <p class="alert-success">Thank you!</p>
 
 
-8. <div class="container">
+8. 
+<div class="container">
     <div class="article">
         <div class="headline">Headlines Across the World</div>
     </div>
@@ -106,7 +107,7 @@ Answer-
 
 Hint- There are available Semantic Elements. So you need to use that
 
-Answer-
+Clean Code-
 <div class="container">    
     <article>      
         <h1>Headlines Across the World</h1>    
@@ -120,7 +121,7 @@ article { ... }
 
 Hint- Organize CSS Code with Comments
 
-Answer-
+Clean Code-
 /* Primary header */
 header { ... }
 
@@ -136,7 +137,7 @@ a,.btn{background:#aaa;color:#f60;font-size:18px;padding:6px;}
 
 Hint- Write Code Using Multiple Lines & Spaces for each statement
 
-Answer-
+Clean Code-
 a.btn {
     background: #aaa;  
     color: #f60;  
@@ -151,7 +152,7 @@ a.btn {
 Hint- Use Proper Class Names. The name “Red_Box” does not mean what it does. 
 For example- if it is for alert message to an error what could be the name?
 
-Answer-
+Clean Code-
 .alert-message { ... }
 
 
@@ -162,7 +163,7 @@ Answer-
 Hint- This code is okay but not Proficient. 
 CSS selectors can get out of control if they are not carefully maintained. They can easily become too long and too location specific. 
 
-Answer-
+Clean Code-
 .news a { ... }
 .news .special { ... }
 
@@ -181,7 +182,7 @@ border-radius: 6px;
 Hint- Similar style is used for two different classes. This can be modularized and make it re-usable.
 Please suggest a re-usable name which will reduce code assuming the box is used for news or event highlighting
 
-Answer-
+Clean Code-
 .highlighted-box {
     background: #eee; 
     border: 1px solid #ccc; 
@@ -191,7 +192,7 @@ Answer-
 
 14. Eliminate unnecessary div ( or any thing ) 
 
-Answer-
+Clean Code-
 <ul id=“bigBarNavigation”>
 	<li><a href=“/“>HOME</a></li>
 	<li><a href=“/contact“>CONTACT US</a></li>
@@ -204,11 +205,11 @@ Answer-
 </ul>
 
 
-15. Answer- <h1>My <span class=“style”>Cat</span> Site</h1>
+15. Clean Code- <h1>My <span class=“style”>Cat</span> Site</h1>
 
-16. Answer- <div id=“sidebar” class=“narrowSidebar”>
+16. Clean Code- <div id=“sidebar” class=“narrowSidebar”>
 
-17. Answer-
+17. Clean Code-
 <body>
   <div id=“sidebar” class=“narrowSidebar”>
 	<h3> My favorite cats:</h3>
